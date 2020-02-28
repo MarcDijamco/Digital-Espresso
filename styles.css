@@ -1,0 +1,490 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+}
+
+li, a, button {
+    font-family: "Railway", sans-sarif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #5F5750;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(95,87,80,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(95,87,80,0.8);
+}
+
+.product-info, h5, a:hover {
+    color: #5F5750;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.product-card {
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+
+  display: flex;
+}
+.product-card {
+    flex: 2 16%;
+}
+
+.product-card {
+    flex: 1 16%;
+}
+
+.product-image img {
+    max-width: 80%;
+}
+
+.product-info {
+    margin-top: auto;
+}
+
+@media (max-width: 920px) {
+    .product-card {
+      flex: 1 21%;
+    }
+}
+
+.site-footer {
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer a {
+  color:#737373;
+}
+.site-footer a:hover {
+  color: #5F5750;
+  text-decoration:none;
+}
+.copyright-text {
+  margin:0
+}
+@media (max-width:991px) {
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px) {
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+
+h9 {
+    color: whitesmoke;
+    text-align: justify;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+h5 {
+    color: whitesmoke;
+    text-align: justify;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+.container{
+    text-align: center;
+}
+
+
+
+.wrapper {
+  height: 420px;
+  width: 654px;
+  margin: 50px auto;
+  border-radius: 7px 7px 7px 7px;
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+
+.product-img {
+  float: left;
+  height: 420px;
+  width: 327px;
+}
+
+.product-img img {
+  border-radius: 7px 0 0 7px;
+}
+
+.product-info {
+  float: left;
+  height: 420px;
+  width: 327px;
+  border-radius: 0 7px 10px 7px;
+}
+
+.product-text {
+  height: 300px;
+  width: 327px;
+}
+
+.product-text h1 {
+  margin: 0 0 0 38px;
+  padding-top: 52px;
+  font-size: 34px;
+  color: #d2d2d2;
+}
+
+.product-text h2,
+.product-price-btn p {
+  font-family: 'Bentham', serif;
+}
+
+.product-text h2 {
+  margin: 0 0 47px 38px;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #d2d2d2;
+  letter-spacing: 0.2em;
+}
+
+.product-text p {
+  height: 125px;
+  margin: 0 0 0 38px;
+  font-family: 'Playfair Display', serif;
+  color: #8d8d8d;
+  line-height: 1.7em;
+  font-size: 15px;
+  font-weight: lighter;
+  overflow: hidden;
+}
+
+.product-price-btn {
+  height: 103px;
+  width: 327px;
+  margin-top: 17px;
+  position: relative;
+}
+
+.product-price-btn p {
+  display: inline-block;
+  position: absolute;
+  top: -13px;
+  height: 50px;
+  font-family: 'Trocchi', serif;
+  margin: 0 0 0 30px;
+  font-size: 40px;
+  font-weight: lighter;
+  color: #ffffff;
+}
+
+span {
+  display: inline-block;
+  height: 50px;
+  padding-top: 12px;
+  padding-right: 3px;
+  font-family: 'Suranna', serif;
+  font-size: 40px;
+}
+
+.product-price-btn button {
+  float: right;
+  height: 50px;
+  width: 176px;
+  margin: 0 40px 0 16px;
+  box-sizing: border-box;
+  border: transparent;
+  border-radius: 60px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  background-color: #474747;
+  cursor: pointer;
+  outline: none;
+}
+
+.product-price-btn button:hover {
+  background-color: #3b3b3b;
+}
+
+
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: "Railway";
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.title-white {
+  color: black;
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    flex-direction: column;
+  }
+}
+
+
+.img-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  }
+  .img-list li {
+  border: 5px solid transparent;
+  box-sizing: border-box;
+  width: 33.33%;
+  float: left;
+  position: relative;
+  cursor: pointer;
+  }
+  .img-list img {
+  max-width: 100%;
+  vertical-align: middle;
+  }
+  
+  .img-placeholder:before,
+  .img-placeholder:after {
+  padding-top: 33.33%;
+  content: "";
+  display: block;
+  }  
+  .img-placeholder {
+  background: #222;
+  box-shadow: 0 0 0 8px #222 inset, 0 0 0 9px #333 inset;
+  color: #444;
+  line-height: 0;
+  text-align: center;
+  display: block;
+  }
+  
+  .img-list li:before {
+  transition: all .5s ease;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #333;
+  transform: scale(0);
+  }
+  .img-list li:hover:before {
+  opacity: .5;
+  transform: scale(1);
+  }
+  .img-list li:after {
+  transition: all .6s ease .2s;
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+  border: 1px solid #aaa;
+  background: #000;
+  opacity: 0;
+  transform: scale(0);
+  }
+  .img-list li:hover:after {
+  opacity: .35;
+  transform: scale(1);
+  }
+
+  
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 7em;
+  }
+  
+  
+  .location-listing {
+    position: relative;
+  }
+  
+  .location-image {
+    line-height: 0;
+    overflow: hidden;
+  }
+  
+  .location-image img {
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transform: scale(1.9);
+  }
+  
+  .location-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+    background: rgba(5, 5, 5, 0.603);
+    color: white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .location-listing:hover .location-title {
+    opacity: 1;
+  }
+  
+  .location-listing:hover .location-image img {
+    filter: blur(1px);
+  }
+
+.circle-1, .circle-2, .circle-3 {
+  color: #fff;
+  padding: 5%;
+  width: 300px;
+  height: 300px;
+  margin: 0 -15px;
+}
+
+.circle-1 p, .circle-2 p, .circle-3 p {
+  color: #fff;
+  text-align: center;
+  padding-top: .39in;
+}
+
+.circle-1 {
+  background-color: rgb(210,105,30,1);
+  opacity: 70%;
+  border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+}
+.circle-2 {
+  background-color: rgb(139,69,19,1);
+  border-radius: 80% 30% 50% 50%/50%;
+  opacity: 70%;
+}
+.circle-3 {
+  background-color: rgb(160,82,45,1);
+  border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+  opacity: 70%;
+}
+
+.circles {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.about__us{
+  text-align: center;
+  font-weight: bold;
+  font-family: "Railway";
+  font-size: 50px;
+  color: #ffffff;
+}
